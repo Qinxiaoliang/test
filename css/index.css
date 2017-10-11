@@ -1,0 +1,731 @@
+body{
+			margin: 0;
+			min-width: 1100px;
+		}
+		h1,
+		h2,
+		h3,
+		h4,
+		p,
+		dl,
+		dd{
+			margin:0;
+		  	font-weight:normal;
+		}
+		span{
+			margin: 0;
+		}
+		ol,
+		ul,
+		li{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		a{
+			text-decoration: none;
+		}
+		strong{
+			font-weight:normal;
+			}
+		em{
+			font-style:normal;
+			}
+		input{
+			padding: 0;
+			outline: none;
+		}
+		img{
+			border: 0;
+			vertical-align: top;
+		}
+		form{
+			margin: 0;
+		}
+		.clearFix{
+			zoom: 1;
+		}
+		.clearFix:after{
+			content: "";
+			display: block;
+			clear: both;
+		}
+		#header{
+			height: 71px;
+			background: url(../img/wangyi.gif) repeat-x;
+		}
+		#header .warp{
+			width: 1100px;
+			margin: 0 auto;
+		}
+		#header .warp h1{
+			width: 157px;
+			height: 29px;
+			float: left;
+			margin: 23px 18px 0 0;
+		}
+		#header .warp .nav{
+			width: 528px;
+			font-size: 12px;
+			font-family: "宋体";
+			float: left;
+			
+		}
+		#hot{
+			display: block;
+			width: 26px;
+			height: 17px;
+			position: absolute;
+			top: 23px;
+			left: 82px;
+			background: url(../img/wangyi.gif) no-repeat right -71px;
+			
+		}
+		#header .nav a{
+			float: left;
+			margin-right: -2px;
+			position: relative;
+			z-index: 1;
+			background: url(../img/wangyi.gif) no-repeat 0 -71px;
+			color: #fff;
+		}
+		#header .activ .bgC{
+			padding-bottom: 1px;
+			margin-bottom: -1px;
+			position: relative;
+			background: url(../img/wangyi.gif) no-repeat center bottom;
+		}
+		#header .nav span{
+			float: left;
+		}
+		
+		#header .nav .bgC{
+			padding: 31px 21px 26px;
+		}
+		#header .activ .bgL,
+		#header a:hover .bgL{
+			background: url(../img/wangyi.gif) no-repeat left -142px;
+		}
+		#header .activ .bgR,
+		#header a:hover .bgR{
+			background: url(../img/wangyi.gif) no-repeat right -142px;
+		}
+		#header .activ .bgC{
+			z-index: -1;
+		background: url(../img/wangyi.gif) repeat-x  0 -213px;	
+		}
+		#header a:hover{
+			z-index: 2;
+			background: url(../img/wangyi.gif) repeat-x  0 -213px;
+		}
+		/*#header .nav .index{
+			background: none;
+		}*/
+		#header .warp .form{
+			margin-top: 21px;
+			width: 279px;
+			height: 32px;
+			float: left;
+			
+		}
+		#header .form .search{
+			float: left;
+			width: 210px;
+			height: 31px;
+			background: #eaeaea;
+			border-radius: 15px;
+			position: relative;
+		}
+		#header .form .searchL{
+			background: url(../img/wangyi.gif) no-repeat left -828px;
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 12px;
+			height: 31px;
+		}
+		#header .form .searchR{
+			background: url(../img/wangyi.gif) no-repeat right -828px;
+			position: absolute;
+			right: 0;
+			top: 0;
+			width: 12px;
+			height: 31px;
+		}
+		#header .search .sub{
+			float: left;
+			border: 0;
+			width: 12px;
+			height: 12px;
+			margin: 8px 8px 9px 13px;
+			background: url(../img/wangyi.gif) no-repeat 0 -284px;
+		}
+		#header .search .text{
+			float: left;
+			border: 0;
+			height: 27px;
+			width: 140px;
+			line-height: 31px;
+			background: #EAEAEA;
+			padding: 2px 10px;
+		}
+		#header .form .login{
+			float: left;
+			height: 26px;
+			font: 12px/26px "宋体";
+			margin: 6px 0 0 19px;
+			
+		}
+		#header .login a{
+			float: left;
+			color: #787878;
+			background: none;
+		}
+       	#header .login span{
+       		margin: 8px 0 0 14px;
+       		float: left;
+       		width: 12px;
+       		height: 7px;
+       		background: url(../img/wangyi.gif) no-repeat 0 -299px;
+       	}
+       	.subNav .warp{
+			height: 34px;
+			background: url(../img/wangyi.gif) repeat-x 0 -359px;
+		}
+		.subNav .navHot{
+			width: 980px;
+			font: 12px "微软雅黑";
+			margin: 0 auto;
+		}
+		.subNav .navHot .firstnav{
+			margin-left: 132px;
+		}
+		.subNav .navHot a{
+			
+			float: left;
+			margin: 6px 19px;
+		}
+		.subNav .navHot span{
+			padding: 0 13px;
+			float: left;
+			line-height: 20px;
+			color: #FFFFFF;
+		}
+		.subNav .navHot a:hover{
+			background: url(../img/wangyi.gif) no-repeat right -792px;
+		}
+		.subNav .navHot a:hover span{
+			
+			background: url(../img/wangyi.gif) no-repeat left -792px;
+		}
+		.banner .warp{
+			height: 336px;
+			background: #e7e7e7;
+			
+		}
+		.banner .warp .box{
+			height: 336px;
+			width: 1100px;
+			margin: 0 auto;
+			position: relative;
+		}
+		.banner .warp ul{
+			width: 985px;
+			margin: 0 auto;
+		}
+		
+		.banner .download{
+			width: 254px;
+			height: 337px;
+			position: absolute;
+			right: 59px;
+			top: 0;
+		}
+		.banner .pc{
+			font: 12px/34px "宋体";
+			position: absolute;
+			top: 268px;
+			right: 73px;
+			color: #8d8d8d
+		}
+		.banner .download1 a{
+			width: 217px;
+			height: 56px;
+			position: absolute;
+			right: 78px;
+			top: 212px;
+			background: url(../img/wangyi.gif) no-repeat 0 -1045px;
+		}
+		.banner .download1 a:hover{
+			position: absolute;
+			right: 78px;
+			top: 212px;
+			background: url(../img/wangyi.gif) no-repeat 0 -1101px;
+		}
+		.banner .leftIco a{
+			width: 22px;
+			height: 37px;
+			position: absolute;
+			left: 0;
+			top: 149px;
+			background: url(../img/wangyi.gif) no-repeat left -315px;
+			
+		}
+		
+		.banner .rightIco a{
+			width: 22px;
+			height: 37px;
+			position: absolute;
+			right: 0;
+			top: 149px;
+			background: url(../img/wangyi.gif) no-repeat right -315px;
+		}
+		.banner .rightIco a:hover{
+			width: 37px;
+			height: 63px;
+			position: absolute;
+			right: 0;
+			top: 136px;
+			background: url(../img/wangyi.gif) no-repeat right -917px;
+		}
+		.banner .leftIco a:hover{
+			width: 37px;
+			height: 63px;
+			position: absolute;
+			right: 0;
+			top: 136px;
+			background: url(../img/wangyi.gif) no-repeat left -917px;
+		}
+		#main{
+			width: 985px;
+			border: 1px solid #d4d4d4;
+			margin: 0 auto;
+			border-top: none;
+			border-bottom: none;
+		}
+		#main .mainContent{
+			float: left;
+			height:1503px;
+			width: 688px;
+			border-right: 1px solid #d4d4d4;
+			padding: 0 21px;
+		}
+		 .mainContent .recommended .head{
+			border-bottom: 2px solid #c10d0c;
+		}
+		#main .mainContent h2{
+			font: 20px/38px "宋体";
+			float: left;
+			margin-top: 15px;
+			padding-left: 36px;
+			background: url(../img/wangyi.gif) no-repeat left -393px;
+		}
+		#main .mainContent .subNav{
+			float: left;
+			font: 12px/34px "宋体";
+			margin: 18px 0 0 6px;
+		}
+		#main .subNav a{
+			padding: 11px 14px;
+			color: #666666;
+			
+		}
+		#main .mainContent .more{
+			float: right;
+			font: 12px/34px "宋体";
+			margin-top: 18px;
+			background: url(../img/wangyi.gif) no-repeat right -393px;
+		}
+		#main .mainContent .more a{
+			color: #666666;
+			padding-right: 26px;
+		}
+		#main .mainContent .imgNews{
+			margin-top: 20px;
+			width: 140px;
+			float: left;
+			margin-right: 42px;
+			margin-bottom: 6px;
+			
+		}
+		#main .mainContent .imgNewsR{
+			float: right;
+			margin-right: 0;
+		}
+		#main .mainContent .img{
+			float: left;
+			width: 140px;
+			height: 140px;
+			position: relative;
+			margin-bottom: 9px;
+		}
+		#main .mainContent .img .transpant{
+			
+			width: 140px;
+			height: 27px;
+			background: url(../img/lisonopcity.png) no-repeat;
+			_background: none;
+		_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/lisonopcity.png",sizingMethod='crop');
+			position: absolute;
+			left: 0;
+			bottom: 0;
+		}
+		#main .mainContent .img .ico1{
+			font: 12px/24px "宋体";
+			padding-left:30px;
+			position: absolute;
+			background: url(../img/ico1.png) no-repeat;
+			_background: none;
+		_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/ico1.png",sizingMethod='crop');
+			left: 0;
+			bottom: 0;
+			color: #FFFFFF;
+		}
+		
+		#main .mainContent .img .ico2{
+			overflow: hidden;
+			width: 17px;
+			height: 17px;
+			position: absolute;
+			background: url(../img/ico2.png) no-repeat 0 1px;
+			_background: none;
+		_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/ico2.png",sizingMethod='crop');
+			right: 10px;
+			bottom: 5px;
+			
+		}
+		#main .mainContent a:hover .ico2{
+			overflow: hidden;
+			background: url(../img/ico3.png) no-repeat 0 1px;
+			_background: none;
+		_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="img/ico3.png",sizingMethod='crop');
+			position: absolute;
+			right: 10px;
+			bottom: 5px;
+		}
+		#main .mainContent img{
+			width: 140px;
+			height: 140px;
+		}
+		#main .mainContent strong{
+			font: 14px/18px "宋体";
+		}
+		#main .mainContent strong a{
+			color: #000;
+		}
+		
+		#ad{
+			width: 690px;
+			height: 75px;
+			background: url(../img/bannerbg.png) no-repeat;
+			margin-top: 28px;
+		}
+		.mainContent .disc .head{
+			border-bottom: 2px solid #c10d0c;
+		}
+		.mainContent .disc .container{
+			width: 652px;
+			border: 1px solid #d3d3d3;
+			margin: 20px auto 14px;
+			padding: 29px 18px 15px 18px;
+			position: relative;
+			background: #f5f5f5;
+		}
+		#arrowLeft{
+			display: block;
+			width: 7px;
+			height: 13px;
+			background: url(../img/wangyi.gif) no-repeat 0 -448px;
+			position: absolute;
+			left: 9px;
+			top: 73px;
+			
+		}
+		#arrowRight{
+			display: block;
+			width: 7px;
+			height: 13px;
+			background: url(../img/wangyi.gif) no-repeat right -448px;
+			position: absolute;
+			right: 9px;
+			top: 73px;
+			
+		}
+		.mainContent .disc .content{
+			float: left;
+			width: 116px;
+			font: 12px/18px "微软雅黑";
+			margin-right: 12px;
+		}
+		.mainContent .disc .content1{
+			margin-left: 12px;
+		}
+		#main .mainContent .content img{
+			width: 116px;
+			height: 116px;
+		}
+		.mainContent .content em{
+			float: left;
+			color: #000000;
+			margin-top: -3px;
+		}
+		.mainContent .exampie .exampieContent{
+			margin-top: 20px;
+			width: 687px;
+			border: 1px solid #d4d4d4;
+		}
+		.mainContent .exampie li{
+			width: 228px;
+			background: #f4f4f4;
+			border-right: 1px solid #d4d4d4;
+			float: left;
+		}
+		.mainContent.exampie .lastLi{
+			border: none;
+		}
+		.mainContent .exampie .head{
+			border-bottom: 2px solid #c10d0c;
+		}
+		
+		#main .mainContent .music .upList{
+			float: left;
+			width: 80px;
+			margin-right: 10px;
+		}
+		#main .mainContent .music{
+			margin-top: 19px;
+			padding-left: 19px;
+		}
+		#main .mainContent .music .text{
+			width: 104px;
+			float: left;
+			margin-bottom: 5px;
+		}
+		#main .music .text .font{
+			font: 14px/30px "宋体";
+			padding-right: 34px;	
+		}
+		#main .music .text .play{
+			float: left;
+			width: 22px;
+			height: 22px;
+			background: url(../img/wangyi.gif) no-repeat 0 -462px;
+			margin-right: 10px;
+		}
+		#main .music .text a.play:hover{
+			background: url(../img/wangyi.gif) no-repeat 0 -865px;
+		}
+		#main .music .text a.flix:hover{
+			background: url(../img/wangyi.gif) no-repeat 0 -894px;
+		}
+		#main .music .text .flix{
+			float: left;
+			width: 22px;
+			height: 22px;
+			background: url(../img/wangyi.gif) no-repeat 0 -484px;
+		}
+		#main .mainContent .musicImg{
+			float: left;
+			width: 80px;
+			height: 100px;
+		} 
+		 .exampie .exampieMenu a{
+			display: block;
+			font: 12px/32px "宋体";
+			padding-left: 29px;
+		}
+		 .exampieMenu a span{
+		 	font-size: 16px;
+			color: #666666;
+			padding-right: 16px;
+		}
+		.exampieMenu a{
+			color: #000000;
+		}
+		 .exampie .exampieMenu .menu{
+			background: #e8e8e8;
+		}
+		 .exampie .exampieMenu .menuAll{
+			padding-left: 143px;
+			background: #e8e8e8;
+		}
+		 .exampieMenu .order{
+			color: #c10d0c;
+		}
+		#main .sidebar{
+			float: left;
+			width: 250px;
+			
+		}
+		#main .sidebar .user{
+			width: 204px;
+			height: 108px;
+			padding: 15px 24px 0 22px;
+			background: url(../img/wangyi.gif) repeat-x 0 -503px;
+			border-bottom: 1px solid #b1b1b1;
+		}
+		#main .user p{
+			font: 12px/22px "宋体";
+			color: #666666;
+		}
+		#main .user .userLogin{
+			width: 100px;
+			height: 31px;
+			background: url(../img/wangyi.gif) no-repeat 0 -626px;
+			margin: 16px 0 0 51px;
+			border: none;
+			color: #fff;
+			font: 12px/30px "宋体";
+		}
+		#main .user a:hover .userLogin{
+			background: url(../img/wangyi.gif) no-repeat right -626px;
+		}
+		.sidebar .singer{
+			padding: 0 20px;
+		}
+		.sidebar .singer .header{
+			height: 30px;
+			border-bottom: 1px solid #cccccc;
+			margin-top: 10px;
+			font: 12px/30px "宋体";
+		}
+		.singer .header .inSinger{
+			float: left;
+		}
+		.singer .header .more{
+			float: right;
+			color: #666666;
+		}
+		.celebrity{
+			width: 208px;
+			height: 60px;
+			border: 1px solid #e9e9e9;
+			margin-top: 20px;
+			background: #fafafa;
+		}
+		.celebrity .celebrityList img{
+			width: 62px;
+			height: 62px;
+			float: left;
+			margin-top: -2px;
+		}
+		.celebrity .celebrityList img{
+			float: left;
+			margin-right: 14px;
+		}
+		.celebrity .celebrityList em{
+			color: #666666;
+			display: block;
+			font: 12px/28px "宋体";
+		}
+		.celebrity .celebrityList .name1{
+			color: #000000;
+		}
+		.singer .apply .applyIput{
+			width: 210px;
+			height: 31px;
+			background: url(../img/wangyi.gif) no-repeat left -983px;
+			margin: 14px 0 25px 0;
+			font: 14px/28px "宋体";
+			border: 0;
+		}
+		.singer .apply a:hover .applyIput{
+			background: url(../img/wangyi.gif) no-repeat left -1014px;
+		}
+		.sidebar .hotDj{
+			padding: 0 20px;
+		}
+		.sidebar .hotDj .header{
+			height: 30px;
+			border-bottom: 1px solid #cccccc;
+			margin-top: 10px;
+			font: 12px/30px "宋体";
+			margin-bottom: 10px;
+		}
+		.hotDj .header .inSinger{
+			float: left;
+		}
+		.hotDj .header .more{
+			float: right;
+			color: #666666;
+		}
+		.hotDj .gastronome .gastronomeList{
+			display: block;
+			width: 210px;
+			height: 40px;
+			margin-top: 10px;
+		}
+		.hotDj .gastronomeList img{
+			margin-right: 10px;
+			float: left;
+		}
+		.hotDj .gastronomeList .text{
+			float: left;
+		}
+		.hotDj .text .name{
+			display: block;
+			font-size: 12px;
+			color: #000000;
+			padding: 6px 14px 6px 0;
+			background: url(../img/wangyi.gif) no-repeat 0 -657px;
+		}
+		.hotDj .text .introduce{
+			display: block;
+			font-size: 12px;
+			color: #666666;
+		}
+		.footer{
+			height: 125px;
+			border-top: 1px solid #d4d4d4;
+		}
+		.footerList{
+			width: 980px;
+			margin: 0 auto;
+			
+		}
+		.column,
+		.independent{
+			float: left;
+			padding: 29px 64px 52px 6px;
+		}
+		
+		.column img,
+		.independent img{
+			float: left;
+			padding-top: 4px;
+			margin-right: 13px;
+		}
+		
+		.column span,
+		.independent span{
+			float: left;
+			font: 12px/22px "宋体";
+			color: #999999;
+		}
+		.column em,
+		.independent em{
+			display: block;
+		}
+		.column span .em1,
+		.independent span .em1{
+			color: #666666;
+		}
+		.footerList .about{
+			float: right;
+			width: 378px;
+			padding: 29px 0 52px 0;
+		}
+		.footerList .about span{
+			font: 12px/22px "宋体";
+			color: #666666;
+			
+			
+		}
+		.footerList .about strong{
+			color: #9b9b9b;
+		}
+		.footerList .about .opinion{
+			padding-left: 40px;
+			background: url(../img/wangyi.gif) no-repeat 0 -730px;
+			padding: 5px 0 5px 40px;
+		}
