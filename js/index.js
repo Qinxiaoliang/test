@@ -1,7 +1,6 @@
 window.onload = function () {
     var bannerList= document.querySelector('.bannerList');
-
-
+    var banner = document.querySelector('.banner');
     var listWarp = document.querySelector('.listWarp');
     var pics = document.querySelectorAll('.listWarp li');
     var liw = css(pics[0],"width");
@@ -48,10 +47,10 @@ window.onload = function () {
     function autoPlay(){
          timer = setInterval(next.onclick,2000);
     }
-    bannerList.onmouseover = function(){
+    banner.onmouseover = function(){
         clearInterval(timer);
     };
-    bannerList.onmouseout = autoPlay;
+    banner.onmouseout = autoPlay;
 
 
 };
