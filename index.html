@@ -5,6 +5,8 @@
 		<title></title>
 		<link rel="stylesheet" type="text/css"  href="css/index.css"/>
 		<script type="text/javascript" src="js/html5shiv.min.js"></script>
+		<script type="text/javascript" src="js/startmove.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
 
 	</head>
 	<body>
@@ -102,16 +104,29 @@
 		<div class="banner">
 			<div class="warp">
 				<div class="box">
-					<ul>
-						<li>
-							<a href="#">
-								<img src="img/banner1.jpg"> 
-							</a>
-						</li>
-					</ul>
+					<div class="bannerList">
+						<ul class="listWarp">
+							<li>
+								<a href="#">
+									<img src="img/banner1.jpg">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/banner1.jpg">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/banner1.jpg">
+								</a>
+							</li>
+						</ul>
+					</div>
+
 					<span class="download"><a href="#"><img src="img/download.png"></a></span>
-					<span class="leftIco"><a href="#"></a></span>
-					<span class="rightIco"><a href="#"></a></span>
+					<span class="leftIco" id="pre"><a href="#"></a></span>
+					<span class="rightIco" id="next"><a href="#"></a></span>
 					<span class="download1"><a href="#"></a></span>
 					<span class="pc">PC 安卓 iPhone WP iPad Mac 六大客户端</span>
 				</div>
@@ -424,5 +439,7 @@
 					</a>
 				</div>
 			</div>
+
 	</body>
+
 </html>

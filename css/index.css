@@ -229,11 +229,24 @@ body{
 			margin: 0 auto;
 			position: relative;
 		}
-		.banner .warp ul{
+		.banner .warp .bannerList{
+			position: relative;
+			height: 336px;
 			width: 985px;
 			margin: 0 auto;
+			overflow: hidden;
 		}
-		
+		.banner .warp ul{
+			position: absolute;
+			width:2955px;
+			left: 0;
+			right:0;
+
+		}
+		.banner .warp ul li{
+			float: left;
+
+		}
 		.banner .download{
 			width: 254px;
 			height: 337px;
@@ -262,6 +275,11 @@ body{
 			top: 212px;
 			background: url(../img/wangyi.gif) no-repeat 0 -1101px;
 		}
+		.banner .leftIco{
+			width: 22px;
+			height: 37px;
+			float: left;
+		}
 		.banner .leftIco a{
 			width: 22px;
 			height: 37px;
@@ -271,7 +289,11 @@ body{
 			background: url(../img/wangyi.gif) no-repeat left -315px;
 			
 		}
-		
+		.banner .rightIco{
+			width: 22px;
+			height: 37px;
+			float: left;
+		}
 		.banner .rightIco a{
 			width: 22px;
 			height: 37px;
